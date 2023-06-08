@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <link rel="stylesheet" href="./assets/css/index.css" />
+
+    <title>Frontend Mentor | Room homepage</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+
+    <script src="./assets/js/nav_bar.js" defer></script>
+    <script src="./assets/js/slider.js" defer></script>
+  </head>
+  <body>
+    <nav id="nav">
+      <div class="navbar_background"></div>
+      <div class="content_container">
+        <div class="logo">
+          <img src="./assets/images/logo.svg" alt="Logo" />
+        </div>
+        <ul class="nav__items">
+          <li class="nav__item">
+            <span>Home</span>
+            <div class="slideingBorder_left"></div>
+            <div class="slideingBorder_right"></div>
+          </li>
+          <li class="nav__item">
+            Shop
+            <div class="slideingBorder_left"></div>
+            <div class="slideingBorder_right"></div>
+          </li>
+          <li class="nav__item">
+            About
+            <div class="slideingBorder_left"></div>
+            <div class="slideingBorder_right"></div>
+          </li>
+          <li class="nav__item">
+            Contact
+            <div class="slideingBorder_left"></div>
+            <div class="slideingBorder_right"></div>
+          </li>
+        </ul>
+      </div>
+      <div class="mobile-nav">
+        <div class="nav_menu">
+          <img
+            src="./assets/images/icon-hamburger.svg"
+            alt="Hamburger menu for mobile nav"
+            srcset=""
+          />
+        </div>
+        <div class="logo">
+          <img src="./assets/images/logo.svg" alt="logo" />
+        </div>
+      </div>
+      <div class="mobile-nav-options">
+        <div class="close_mobile_nav">
+          <img
+            src="./assets/images/icon-close.svg"
+            alt="close icon for mobile nav"
+          />
+        </div>
+        <ul class="nav__items">
+          <li class="nav__item">
+            <span>Home</span>
+            <div class="slideingBorder_left"></div>
+            <div class="slideingBorder_right"></div>
+          </li>
+          <li class="nav__item">
+            Shop
+            <div class="slideingBorder_left"></div>
+            <div class="slideingBorder_right"></div>
+          </li>
+          <li class="nav__item">
+            About
+            <div class="slideingBorder_left"></div>
+            <div class="slideingBorder_right"></div>
+          </li>
+          <li class="nav__item">
+            Contact
+            <div class="slideingBorder_left"></div>
+            <div class="slideingBorder_right"></div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <section class="slider">
+      <div class="background_img">
+        <img
+          src="./assets/images/desktop-image-hero-1.jpg"
+          alt="table with chairs and a tree on top of the table"
+          srcset=""
+        />
+      </div>
+      <div class="text_content">
+        <h1>Discover innovative ways to decorate</h1>
+        <p>
+          We provide unmatched quality, comfort, and style for property owners
+          across the country. Our experts combine form and function in bringing
+          your vision to life. Create a room in your own style with our
+          collection and make your property a reflection of you and what you
+          love.
+        </p>
+        <div class="CTA_button">
+          <span>Shop Now</span>
+          <img
+            src="./assets/images/icon-arrow.svg"
+            alt="arrow pointing right"
+            srcset=""
+          />
+        </div>
+        <div class="move_slider_BTNS">
+          <div class="slider_option left">
+            <img
+              src="./assets/images/icon-angle-left.svg"
+              alt="angle left to switch slider"
+              srcset=""
+            />
+          </div>
+          <div class="slider_option right">
+            <img
+              src="./assets/images/icon-angle-right.svg"
+              alt="angle right to switch slider"
+              srcset=""
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="about">
+      <div class="sideImg background_1">
+        <img
+          src="./assets/images/image-about-dark.jpg"
+          alt="Two chairs in a dark room with a pot on the table"
+          srcset=""
+        />
+      </div>
+      <div class="text_content">
+        <h3>About our furniture</h3>
+        <p>
+          Our multifunctional collection blends design and function to suit your
+          individual taste. Make each room unique, or pick a cohesive theme that
+          best express your interests and what inspires you. Find the furniture
+          pieces you need, from traditional to contemporary styles or anything
+          in between. Product specialists are available to help you create your
+          dream space.
+        </p>
+      </div>
+      <div class="sideImg background_2">
+        <img
+          src="./assets/images/image-about-light.jpg"
+          alt="single chair sitting in a light room"
+          srcset=""
+        />
+      </div>
+    </section>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="https://blakekaufman.netlify.app/">Blake Kaufman</a>.
+    </div>
+  </body>
+</html>
